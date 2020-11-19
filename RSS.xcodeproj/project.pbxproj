@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		52F6C8612566B0D8005ABBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F6C85F2566B0D8005ABBE6 /* LaunchScreen.storyboard */; };
 		52F6C86C2566B0D8005ABBE6 /* RSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C86B2566B0D8005ABBE6 /* RSSTests.swift */; };
 		52F6C8772566B0D8005ABBE6 /* RSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8762566B0D8005ABBE6 /* RSSUITests.swift */; };
+		52F6C8882566B103005ABBE6 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8872566B103005ABBE6 /* ArticleList.swift */; };
+		52F6C89A2566B175005ABBE6 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8992566B175005ABBE6 /* CustomTabView.swift */; };
+		52F6C89F2566B18A005ABBE6 /* HatenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C89E2566B18A005ABBE6 /* HatenaView.swift */; };
+		52F6C8A42566B199005ABBE6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8A32566B199005ABBE6 /* HeaderView.swift */; };
+		52F6C8A92566B1A2005ABBE6 /* QiitaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8A82566B1A2005ABBE6 /* QiitaView.swift */; };
+		52F6C8AE2566B1B0005ABBE6 /* RedditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8AD2566B1B0005ABBE6 /* RedditView.swift */; };
+		52F6C8B62566B1EE005ABBE6 /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8B52566B1EE005ABBE6 /* SearchFieldView.swift */; };
+		52F6C8BB2566B20A005ABBE6 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8BA2566B20A005ABBE6 /* TopicView.swift */; };
+		52F6C8C02566B219005ABBE6 /* YahooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C8BF2566B219005ABBE6 /* YahooView.swift */; };
+		52F6C8CF2566B3BC005ABBE6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52F6C8CE2566B3BC005ABBE6 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,15 @@
 		52F6C8722566B0D8005ABBE6 /* RSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F6C8762566B0D8005ABBE6 /* RSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSUITests.swift; sourceTree = "<group>"; };
 		52F6C8782566B0D8005ABBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F6C8872566B103005ABBE6 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		52F6C8992566B175005ABBE6 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		52F6C89E2566B18A005ABBE6 /* HatenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatenaView.swift; sourceTree = "<group>"; };
+		52F6C8A32566B199005ABBE6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		52F6C8A82566B1A2005ABBE6 /* QiitaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaView.swift; sourceTree = "<group>"; };
+		52F6C8AD2566B1B0005ABBE6 /* RedditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditView.swift; sourceTree = "<group>"; };
+		52F6C8B52566B1EE005ABBE6 /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
+		52F6C8BA2566B20A005ABBE6 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		52F6C8BF2566B219005ABBE6 /* YahooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F6C8CF2566B3BC005ABBE6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +119,8 @@
 		52F6C8532566B0D7005ABBE6 /* RSS */ = {
 			isa = PBXGroup;
 			children = (
+				52F6C8952566B158005ABBE6 /* View */,
+				52F6C88C2566B114005ABBE6 /* Model */,
 				52F6C8542566B0D7005ABBE6 /* AppDelegate.swift */,
 				52F6C8562566B0D7005ABBE6 /* SceneDelegate.swift */,
 				52F6C8582566B0D7005ABBE6 /* ContentView.swift */,
@@ -136,6 +158,29 @@
 			path = RSSUITests;
 			sourceTree = "<group>";
 		};
+		52F6C88C2566B114005ABBE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F6C8872566B103005ABBE6 /* ArticleList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52F6C8952566B158005ABBE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52F6C8992566B175005ABBE6 /* CustomTabView.swift */,
+				52F6C8AD2566B1B0005ABBE6 /* RedditView.swift */,
+				52F6C8BF2566B219005ABBE6 /* YahooView.swift */,
+				52F6C8BA2566B20A005ABBE6 /* TopicView.swift */,
+				52F6C8B52566B1EE005ABBE6 /* SearchFieldView.swift */,
+				52F6C89E2566B18A005ABBE6 /* HatenaView.swift */,
+				52F6C8A82566B1A2005ABBE6 /* QiitaView.swift */,
+				52F6C8A32566B199005ABBE6 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +197,9 @@
 			dependencies = (
 			);
 			name = RSS;
+			packageProductDependencies = (
+				52F6C8CE2566B3BC005ABBE6 /* Alamofire */,
+			);
 			productName = RSS;
 			productReference = 52F6C8512566B0D7005ABBE6 /* RSS.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 52F6C8482566B0D7005ABBE6;
+			packageReferences = (
+				52F6C8CD2566B3BC005ABBE6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 52F6C8522566B0D7005ABBE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,8 +317,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F6C8882566B103005ABBE6 /* ArticleList.swift in Sources */,
+				52F6C89F2566B18A005ABBE6 /* HatenaView.swift in Sources */,
 				52F6C8552566B0D7005ABBE6 /* AppDelegate.swift in Sources */,
+				52F6C8BB2566B20A005ABBE6 /* TopicView.swift in Sources */,
+				52F6C8A42566B199005ABBE6 /* HeaderView.swift in Sources */,
+				52F6C8C02566B219005ABBE6 /* YahooView.swift in Sources */,
+				52F6C8AE2566B1B0005ABBE6 /* RedditView.swift in Sources */,
+				52F6C89A2566B175005ABBE6 /* CustomTabView.swift in Sources */,
+				52F6C8B62566B1EE005ABBE6 /* SearchFieldView.swift in Sources */,
 				52F6C8572566B0D7005ABBE6 /* SceneDelegate.swift in Sources */,
+				52F6C8A92566B1A2005ABBE6 /* QiitaView.swift in Sources */,
 				52F6C8592566B0D7005ABBE6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52F6C8CD2566B3BC005ABBE6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52F6C8CE2566B3BC005ABBE6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52F6C8CD2566B3BC005ABBE6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52F6C8492566B0D7005ABBE6 /* Project object */;
 }
